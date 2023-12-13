@@ -1,3 +1,16 @@
+
+
+PATTERN SOLVING USING PYTHON PROGRAMMING.
+
+To solve any pattern problem , one should remember to follow below steps:
+
+
+STEP 1: Find number of rows
+
+Step 2: Identify for every row number:
+       =>How many colums are there.
+       =>What type of elements are there in the column.
+
 #PATTERN 1
 """ ****
     ****
@@ -13,13 +26,16 @@ n=int(input())
 pattern1(n)
 
 
+
 #PATTERN 2
+
 """   *
       **
       ***
       ****
       *****
 """
+
 def pattern2(n):
     for row in range(1,n+1):
         for column in range(1,row+1):
@@ -28,7 +44,9 @@ def pattern2(n):
 n=int(input())
 pattern2(n)
 
+
 #PATTERN 3
+
 """
     *****
     ****
@@ -36,6 +54,7 @@ pattern2(n)
     **
     *
 """
+
 def pattern3(n):
     for row in range(0,n):
         for column in range(1,n+1-row):           #can also use n-row
@@ -46,12 +65,14 @@ n=int(input())
 pattern3(n)
 
 #PATTERN 4
+
 """
     1
     23
     456
     78910
 """
+
 def pattern4(n):
     i=1
     for row in range(1,n+1):
@@ -63,12 +84,14 @@ n=int(input())
 pattern4(n)
 
 #PATTERN 5
+
 """
     1
     12
     123
     1234
 """
+
 def pattern5(n):
     i=1
     for row in range(1,n+1):
@@ -80,6 +103,7 @@ n=int(input())
 pattern5(n)
 
 #PATTERN 6
+
 """
     *
     **
