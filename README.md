@@ -1,1 +1,3 @@
-# Python
+# Topics covered
+
+=> Patterns
